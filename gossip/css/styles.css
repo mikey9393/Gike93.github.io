@@ -54,7 +54,7 @@
 				font-family: 'Trebuchet MS' ;
 				font-size: 1.25em;
 			}
-			ul{
+			article ul{
 				list-style-image: url(../image/peaceSign.png);
 
 			}
