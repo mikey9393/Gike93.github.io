@@ -1,0 +1,72 @@
+/*Michael Robins
+4/1/22 */
+@font-face {
+	font-family: rubik;
+	src: url(../fonts/RubikGlitch-Regular.ttf);
+}
+@font-face{
+	font-family: firesans;
+	src: url(../fonts/AlexBrush-Regular.ttf);
+}
+
+
+#outerwrapper {
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+} 
+
+.floatleft { 
+float: left;
+
+}
+
+.floatright {
+float: right;
+
+}
+.floatleft
+{
+	margin-right: 3%;
+}
+.floatright
+{
+	margin-left: 3%;
+}
+h2
+{
+	font-family: firesans;
+	font-weight: normal;
+	font-style: italic;
+}
+h1
+{
+	font-family: rubik;
+}
+
+main, footer { 
+clear: both;
+}
+body
+{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+nav a
+{
+	text-decoration: none;
+}
+main ul 
+{
+	list-style-image: url(../images/tomato.png);	
+}
+footer
+{
+	font-size: .75em;
+	text-align: center;
+	background-color:#912626;
+	padding: 10px 0px 10px 0;
+}
+
+
