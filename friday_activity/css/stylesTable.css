@@ -1,0 +1,50 @@
+
+table {
+  width: 100%;
+  background-image: linear-gradient(#FFFFFF, #F0F9E6);
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #DFA478; 
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+  
+  
+}
+
+table td, th {
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  padding: 15px;
+  
+
+  
+}
+
+table thead {
+  background-color: #DFA478;
+}
+#outerwrapper
+{
+  
+  background-image: linear-gradient( to right, #FFFFFF, #f0f9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+  width: 60%;
+	text-align: center;
+  
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+}
+#rowheight
+{
+  height: 50px;
+}
+
+h3
+{
+  font-weight: lighter;
+}

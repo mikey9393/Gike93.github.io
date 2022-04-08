@@ -1,0 +1,78 @@
+
+/*Michael Robins 4/8/2022*/
+
+@font-face{font-family: pacifico;
+src: url(../fonts/Pacifico-Regular.ttf);}
+@font-face{
+	font-family: upper_eastside;
+	src: url(../fonts/UpperEastSide.ttf);
+}
+
+
+
+
+html
+{
+	background-image: url(../images/jewelry.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+
+	
+}
+ul
+{
+	list-style-type: none;
+	font-size: 1em;
+
+}
+h1
+{
+	font-family: pacifico;	
+	font-size: 4em;
+}
+h2
+{
+	font-family: upper_eastside;
+	font-size: 2em;
+	font-style: italic;
+}
+.clear
+{
+	clear:both;
+}
+.addrightmargin
+{
+	margin-right: 10%;
+}
+img
+{
+	float: left;
+	border-radius: 50%;
+	
+}	 
+#outerwrapper
+{	
+	
+	width: 70%;
+	text-align: center;
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+}
+main
+{
+	background-image: linear-gradient( to right, #FFFFFF, #f0f9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+
+}
+footer
+{
+	font-size: 1em;
+	padding: 10px;
+}
+
+
