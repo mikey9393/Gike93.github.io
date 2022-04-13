@@ -1,0 +1,12 @@
+@import url(../images/first_svg.svg);
+path:hover
+{
+    fill:black;
+    transform:skew(20deg,20deg);
+    transition-duration:5s;
+}
+.pathway
+{
+    background-image: linear-gradient(red,green,violet,cyan,seagreen,lavender,gold,rgb(221, 163, 56));
+    border: 1em solid black;
+}
