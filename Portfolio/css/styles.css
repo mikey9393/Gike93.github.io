@@ -1,0 +1,217 @@
+@font-face {
+    font-family: anek;
+    src: url(../fonts/AnekMalayalam-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: unica;
+    src: url(../fonts/UnicaOne-Regular.ttf);
+}
+
+/*layout*/
+html
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+body
+{
+    text-align: center;
+    font-family: anek;
+}
+
+li
+{
+    display:inline;
+    margin-right: 4em;
+    font-family: unica;
+   
+}
+
+.header,tr>th
+{
+    font-family: unica;
+}
+caption
+{
+    margin-top: 1em;
+}
+tr,td
+{
+    text-align: left;
+}
+form
+{
+  padding-bottom: .9em;  
+}
+label.id
+{
+    
+    height: 22em;
+    border-radius: 5px;
+}
+.input
+{
+    
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.container
+{
+    display:block;
+    position:absolute;
+    padding-left: 17px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+.container input
+{
+    
+    position:absolute;
+    opacity:0;
+    cursor:pointer;
+}
+.radiobutton
+{
+    position: absolute;
+    top:0;
+    left:0;
+    height:12px;
+    width:12px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.container:hover input ~ .radiobutton
+{
+    border: .1px solid rgb(50, 53, 52);
+}
+.container input:checked ~ .radiobutton
+{
+    background-color:white;
+}
+.radiobutton:after 
+{
+    
+    content:"";
+    position:static;
+    display: none;
+}
+.container input:checked ~ .radiobutton:after
+{
+    display:block;
+}
+.container .radiobutton:after
+{
+    margin-left: .78px;
+    margin-top: 1.2px;
+    top:10px;
+    left:10px;
+    width:9.9px;
+    height:10.2px;
+    border-radius:50%;
+    background:#2196F3;
+}
+input[type=text]
+{
+    
+    width: 50%;
+    display: inline-block;
+    border: 1px solid #454949;
+    border-radius: 5px;   
+}
+label
+{
+    float:left;
+    text-align: left;
+}
+fieldset
+{
+
+    border-radius: 20px;
+}
+
+
+
+ 
+ 
+
+/***************************style*/
+/*table*/
+body
+{
+    background-image: linear-gradient(to right, 
+    #cba5a5, #92DDF4 80%)
+}
+section
+{
+   
+    border-radius: 5%;
+    background-color: #e33c2d53; 
+}
+caption
+{
+    background-color: #536CA2; 
+    border-radius: 5px;   
+}
+table,td
+{
+    border-left:2px double #454949;
+    border-right: 2px double #454949;
+    border-top: 1px solid #454949;
+    border-bottom: 1px solid #454949;
+    border-radius: 5px;
+    padding: 2px;  
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+table
+{
+    background-image: linear-gradient(to left, 
+    #cba5a5, #abdcec 80%);
+    border-top: 8px solid #454949;
+    border-bottom: 8ps solid #454949;
+    border-left: 4px double #454949;
+    border-right: 4px double #454949;
+}
+/*links*/
+ul
+{
+    background-color: #536CA2;
+    border-radius: 5px;
+}
+li>a
+{
+    text-decoration: none;  
+}
+.hlinks
+{  
+    text-decoration: none;
+    color: #536CA2;
+}
+a:active, a:visited
+{
+    color: #282E30;
+}
+a:hover
+{
+    color: #f0b903; 
+    text-shadow: 2px 2px 2px black;   
+}
+/*bottom page*/
+footer
+{
+    border-top: 5px solid black;
+    padding: 3px;
+}
+  
