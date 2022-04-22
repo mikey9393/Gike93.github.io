@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* Name: Michael Robins
+   Date: 4/22/2022 */
+   @import url(/images/yogabullet.png);
+
+body, p, h2, ul>li { 
+	background-color: #F5F5F5;
+    color: #3F2860;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+header { 
+	background-color: #9BC1C2; 
+    background-image: url(lilyheader.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.classes_img
+{
+	float: right;
+}
+nav ul li
+{
+	display: block;
+	
+}
+.main_ul
+{
+	margin-left: 3em;
+	list-style-type: none;
+}
+.bullet
+{
+	list-style-image: url(/images/yogabullet.png);
+
+}
+
+nav ul
+{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+h1 { 
+	text-indent: 1em;
+    line-height: 400%; 
+}
+
+nav { 
+     font-weight: bold; 
+}
+
+footer { 
+	background-color: #9BC1C2; 
+    font-size: small;
+	text-align: center;
+	font-style: italic;
+	padding: .5em;
+	margin-bottom: .5em;
+}
+img{display: none;}
+/* Table Style *************/
+tr>td
+{
+	border: 1px solid black;
+	text-align: center;
+}
+.schedule
+{
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 100%;
+	margin-bottom: .5em;
+}
+/** Media Queries **/
+/** tablet breakpoint **/
+@media only screen and (min-width: 641px){
+	nav>ul{
+		display: inline-flex;
+		
+	}
+	body{
+		background-color: #F5F5F5;
+	}
+	
+	
+}
+
+
+
