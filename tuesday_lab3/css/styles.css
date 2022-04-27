@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+.bg-light-blue
+{
+    background-color: #cce6ff;
+}
+/* The first column h3 element 'Jumbotron' got clipped last couple letters by the h3 Navbar. The instructions didn't specify anything regarding this. I've managed to write this code below.
+********** if you have any recomendations with this I'd appreciate it.  */
+/* 575px*/
+@media only screen and (max-width: 575px){
+   
+    #adjust{
+        display: none;
+    }
+    .insert:before{
+        content: 'Jumbotron';
+    }
+    .insert{
+        font-size: 28px;    
+    }
+    
+
+}
+/* 992px */
+@media only screen and (min-width: 992px){
+
+    #adjust{
+        display: none;
+    }
+    .insert:before{
+        content: 'Jumbotron';
+    }
+}
