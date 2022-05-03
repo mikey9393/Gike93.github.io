@@ -1,0 +1,47 @@
+/* Michael Robins
+  5/02/22 */
+
+@charset "utf-8";
+body{
+  background-color: lightblue;
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+/*img{
+  transform: rotateZ(270deg) translateY(-200px) scale(2);
+} */
+.circle{
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background: green;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  /* different timing each property */ 
+  transition: background 1s 1s ease-out, transform 2s .8s ease-in;
+  /* transform [t-time]#s [delay]#s */
+  /* or */
+/*transition:  #s */
+}
+.circle:hover{   /* mouse on/mouse off transition */
+  background: salmon;
+  transform: rotate(360deg);
+}
+/*  
+ease
+linear
+ease-in
+ease-out
+ease-in-out
+step-start
+step-end
+steps()
+cubic-bezier()
+*/
