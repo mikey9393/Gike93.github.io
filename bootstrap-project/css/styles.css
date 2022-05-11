@@ -7,6 +7,11 @@
 body{
     background-image: linear-gradient(#fdffde,#e9eee9,#ffe5ac );
 }
+.header{
+    font-family: 'Macondo', Arial, Helvetica, sans-serif;
+    color:rgb(5, 31, 12);
+
+}
 
 span{
     color:rgb(0, 0, 0);
@@ -39,8 +44,9 @@ address{
    
 }
 .align-icon{
-    display: inline-flex;
-    
-    
-    
+    display: inline-flex; 
+}
+.icons{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
 }
